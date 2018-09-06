@@ -10,25 +10,23 @@
 
 </head>
 <body>
-<!--Top navigation bar (yes, I had to make one to fit the content in the 960px in another one that fits the full screen width)-->
-    <section class="main-navigation-bar"></section>
-
 <!--Main menu-->
-    <section class="navigation-bar">
-        <h1>Eduardo Morán</h1>
-        <ul>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="portfolio.html">Portfolio |</a></li> 
-            <li><a href="index.html">About |</a></li>
-        </ul>
-    </section>
-    
+<header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Eduardo Morán</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>  
 <!--Section with the form-->
 <div id="main-container" class="container">
     <section class="main-section">
 
         <h2>Contact</h2>
-        <div class="horizontal-line"></div>
+        
         <form>
             <label for="name">Name</label><br>
             <input type="text" placeholder="Full Name"> <br>
@@ -37,6 +35,7 @@
             <label for="message">Message</label><br>
             <input type="message"><br>
             <input type="submit" name="Submit">
+            
         </form>
     </section>
 
